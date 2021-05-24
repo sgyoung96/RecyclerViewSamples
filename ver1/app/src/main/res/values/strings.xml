@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyclerView1</string>
+    <string name="tvName">테스트 이름</string>
+</resources>

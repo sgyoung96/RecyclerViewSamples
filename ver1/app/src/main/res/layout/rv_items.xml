@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <!-- 위에서 높이를 match_parent 로 주면, 셀 하나의 높이가 화면 전체의 높이가 되어 버린다. 따라서 여기서 높이를 지정해 준다.(개별 셀에 대한 높이임) -->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/ivProfile"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:src="@drawable/ic_launcher_foreground"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        />-->
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tvName"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintLeft_toRightOf="@id/ivProfile"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
