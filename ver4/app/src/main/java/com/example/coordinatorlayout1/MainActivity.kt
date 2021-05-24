@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        setSupportActionBar(toolbar) // ------------> 여기서 터진다.
+        setSupportActionBar(toolbar) // ------------> 여기서 터진다.
 
         initRecycler()
     }
